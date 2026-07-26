@@ -20,6 +20,9 @@ class Solution {
 };  
 
 int main() {
-    // code
+	Solution solution;
+    vector<int> nums = { 1,2,3,4 };
+    int target = 6;
+	cout << solution.twoSum(nums, target)[0] << endl;
     return 0;
 }
